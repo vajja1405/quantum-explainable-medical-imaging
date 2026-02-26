@@ -31,3 +31,9 @@ Models evaluated:
 - Comparative study of classical vs quantum ML
 - Computational efficiency analysis
 - Explainability validation across architectures
+
+
+## Research Paper & Poster
+
+📄 Research Paper: [Read Full Paper](https://drive.google.com/file/d/1ZL2x0kbnx-VQnojByAn5yibv0oKIShI2/view)
+📊 Research Poster: [See Poster](https://drive.google.com/file/d/1zlh1b2yddr9GL556Hlyz37CIzbk7zkyN/view)
