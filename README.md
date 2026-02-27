@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/yourusername/reponame/blob/main/notebook.ipynb](https://colab.research.google.com/drive/1NpNf3mgTx0-4_shmHh0PwvejUEFMEO8I?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NpNf3mgTx0-4_shmHh0PwvejUEFMEO8I?usp=sharing)
 
 
 # Explainable and Quantum AI for Medical Imaging Systems
