@@ -40,3 +40,21 @@ Models evaluated:
 
 📄 Research Paper: [Read Full Paper](https://drive.google.com/file/d/1ZL2x0kbnx-VQnojByAn5yibv0oKIShI2/view)
 📊 Research Poster: [See Poster](https://drive.google.com/file/d/1zlh1b2yddr9GL556Hlyz37CIzbk7zkyN/view)
+
+## Practical use and reproducibility limits
+
+This study supports a researcher's model-selection decision: compare predictive
+performance and computational cost under the same data split and compute budget.
+It is not a medical diagnostic product. SHAP and Grad-CAM help inspect patterns;
+they do not validate every prediction. The reported 5x training-time result lacks
+local run metadata, so it should not be advertised as a general quantum advantage.
+
+`benchmark_audit.py` now checks paired run metadata before calculating a runtime
+ratio. Run `python -m unittest discover -s tests -v` offline. Its test fixtures are
+synthetic software tests, not new research measurements. The original notebook
+and paper remain external links; no models were retrained in this update.
+
+A useful next experiment (not completed) records dataset/version, subject-level
+splits, seeds, hardware, sample counts, epochs, wall time and AUROC/AUPRC/F1 for
+each architecture, with repeated seeds and uncertainty. Inspect errors and
+attributions before proposing a human-reviewed clinical study.
